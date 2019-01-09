@@ -70,6 +70,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "808237684001-pal097eo8a5dm23tpa0dgre5tfdbm75m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "26964e75bb176294bf9eb1f0d9c177f574faaac0"
+          }
+        },
+        {
           "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
           "client_type": 3
         },
@@ -88,8 +96,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DAFUG.Pursellet"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2
