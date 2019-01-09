@@ -30,29 +30,28 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   Future<FirebaseUser> _handleSignIn() async {
-  GoogleSignInAccount googleUser = await _googleSignIn.signIn();
-  GoogleSignInAuthentication googleAuth = await googleUser.authentication;
-  FirebaseUser user = await _auth.signInWithGoogle(
-    accessToken: googleAuth.accessToken,
-    idToken: googleAuth.idToken,
-  );
-  print("signed in " + user.displayName);
-  return user;
-}
+    GoogleSignInAccount googleUser = await _googleSignIn.signIn();
+    GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+    FirebaseUser user = await _auth.signInWithGoogle(
+      accessToken: googleAuth.accessToken,
+      idToken: googleAuth.idToken,
+    );
+    print("signed in " + user.displayName);
+    return user;
+  }
 
-    void _signOut() {
-        _googleSignIn.signOut();
-        print("User Signed Out");
-    }
+  void _signOut() {
+    _googleSignIn.signOut();
+    print("User Signed Out");
+  }
 
-    @override
-    Widget build(BuildContext context) {
-      return new Scaffold(
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
         appBar: new AppBar(
           title: new Text("Firebase Demo"),
         ),
@@ -63,9 +62,9 @@ class MyHomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               new RaisedButton(
-                onPressed: ()=> _handleSignIn()
-                  .then((FirebaseUser user) => print(user))
-                  .catchError((e) => print(e)),
+                onPressed: () => _handleSignIn()
+                    .then((FirebaseUser user) => print(user))
+                    .catchError((e) => print(e)),
                 child: new Text("Sign In"),
                 color: Colors.green,
               ),
@@ -79,9 +78,8 @@ class MyHomePage extends StatelessWidget {
               )
             ],
           ),
-        )
-      );
-    }
+        ));
+  }
 }
 
 /* class MyHomePage extends StatefulWidget {
