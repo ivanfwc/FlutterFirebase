@@ -48,10 +48,10 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
@@ -69,6 +69,22 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "808237684001-7gdumed2o1jvja2usl2qb50voc79lqs2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "bd6ff6ea1cc162154cdde4c6ddeae3fdb4821c64"
+          }
+        },
+        {
+          "client_id": "808237684001-cjv2f17j22ltliibs8bmfq8fvcs1ipb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "77eecaa634611acf50bc4ab713461117b35b4e99"
+          }
+        },
         {
           "client_id": "808237684001-pal097eo8a5dm23tpa0dgre5tfdbm75m.apps.googleusercontent.com",
           "client_type": 1,
@@ -103,10 +119,73 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808237684001:android:f1b6503bee51651a",
+        "android_client_info": {
+          "package_name": "com.firebase.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808237684001-7vvs76b1taio5hgti4hkpu18teiu0tp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.myapp",
+            "certificate_hash": "099a1e451936cfaa26084f372497626e04c1bc76"
+          }
+        },
+        {
+          "client_id": "808237684001-i42not40bhkjrvnff65onrloabqr7rco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.myapp",
+            "certificate_hash": "26964e75bb176294bf9eb1f0d9c177f574faaac0"
+          }
+        },
+        {
+          "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808237684001-hgarqinvj2f79fth0rvhq2vagp381159.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9BfyDqFdFAaw_f-2D50HLmZ7gMZC5L7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
@@ -158,10 +237,10 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
@@ -213,10 +292,73 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808237684001:android:b5d6e514f084a7bb",
+        "android_client_info": {
+          "package_name": "com.hello.flutternice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808237684001-v32qauppo91hkb7np574mmi7durj58jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hello.flutternice",
+            "certificate_hash": "bd6ff6ea1cc162154cdde4c6ddeae3fdb4821c64"
+          }
+        },
+        {
+          "client_id": "808237684001-gp6jiha0rg66v18b9gpajganiku07bul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hello.flutternice",
+            "certificate_hash": "77eecaa634611acf50bc4ab713461117b35b4e99"
+          }
+        },
+        {
+          "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808237684001-hgarqinvj2f79fth0rvhq2vagp381159.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9BfyDqFdFAaw_f-2D50HLmZ7gMZC5L7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
@@ -338,10 +480,10 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
@@ -401,10 +543,81 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808237684001:android:4f7ffb77c0e86a9d",
+        "android_client_info": {
+          "package_name": "flutter.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808237684001-hupd2mp2l0vdo6vd587l6fa0gcik5sbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flutter.flutterapp",
+            "certificate_hash": "bd6ff6ea1cc162154cdde4c6ddeae3fdb4821c64"
+          }
+        },
+        {
+          "client_id": "808237684001-j3f60a2ecm2pd6guuh1hgnct4s5oerls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flutter.flutterapp",
+            "certificate_hash": "77eecaa634611acf50bc4ab713461117b35b4e99"
+          }
+        },
+        {
+          "client_id": "808237684001-k19ofj4h86n3gr0n99l5kft05cjt65uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flutter.flutterapp",
+            "certificate_hash": "26964e75bb176294bf9eb1f0d9c177f574faaac0"
+          }
+        },
+        {
+          "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808237684001-hgarqinvj2f79fth0rvhq2vagp381159.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9BfyDqFdFAaw_f-2D50HLmZ7gMZC5L7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
@@ -464,10 +677,10 @@
               "client_type": 3
             },
             {
-              "client_id": "808237684001-daehlhtb0b3kfqn4o571bfpivbn8qv81.apps.googleusercontent.com",
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.DAFUG.Pursellet"
+                "bundle_id": "com.firebase.myapp"
               }
             }
           ]
