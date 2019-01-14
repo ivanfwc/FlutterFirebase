@@ -134,12 +134,75 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:808237684001:android:022057a970cf6676",
+        "android_client_info": {
+          "package_name": "com.example.phoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808237684001-rchq5nnt32m96ft9u83t8eqpsm5ir4qr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoneauth",
+            "certificate_hash": "099a1e451936cfaa26084f372497626e04c1bc76"
+          }
+        },
+        {
+          "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "808237684001-hgarqinvj2f79fth0rvhq2vagp381159.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9BfyDqFdFAaw_f-2D50HLmZ7gMZC5L7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808237684001-ppd85525s47rt92evui4pqfcip77bjs9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808237684001-7klrmkrlqt8ko7deeohj5340gmkl4gul.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firebase.myapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:808237684001:android:f1b6503bee51651a",
         "android_client_info": {
           "package_name": "com.firebase.myapp"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "808237684001-6rv1dmiuvg7631bm32r2svhbqe1n7c9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.myapp",
+            "certificate_hash": "bd6ff6ea1cc162154cdde4c6ddeae3fdb4821c64"
+          }
+        },
         {
           "client_id": "808237684001-7vvs76b1taio5hgti4hkpu18teiu0tp9.apps.googleusercontent.com",
           "client_type": 1,
