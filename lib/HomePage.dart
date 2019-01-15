@@ -3,15 +3,41 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'LoginPage.dart'; //important fix
+import 'FirstScreen.dart' as firstscreen;
+import 'SecondScreen.dart' as secondscreen;
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   static String tag = 'home-page';
-  BuildContext contxt;
   final UserDetails detailsUser;
-  final FirebaseAuth _auth = FirebaseAuth.instance;
-  final GoogleSignIn _googleSignIn = new GoogleSignIn();
 
   HomePage({Key key, @required this.detailsUser}) : super(key: key);
+
+  @override
+  HomePageState createState() {
+    return new HomePageState();
+  }
+}
+
+class HomePageState extends State<HomePage>
+    with SingleTickerProviderStateMixin {
+  TabController _tabController;
+  BuildContext contxt;
+
+  @override
+  void initState() {
+    super.initState();
+    _tabController = new TabController(vsync: this, length: 3);
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
+  final GoogleSignIn _googleSignIn = new GoogleSignIn();
 
   Future<void> _signOut() async {
     await _auth.signOut().then((_) {
@@ -64,7 +90,7 @@ class HomePage extends StatelessWidget {
             ),
             )); */
 
-    return MaterialApp(
+    /* return MaterialApp(
       home: DefaultTabController(
         length: 3,
         child: Scaffold(
@@ -108,9 +134,9 @@ class HomePage extends StatelessWidget {
                 margin: EdgeInsets.all(8.0),
                 child: new Column(
                   children: <Widget>[
-                    new Image.network(detailsUser.photoUrl),
+                    new Image.network(widget.detailsUser.photoUrl),
                     new Text(
-                      "Name : " + detailsUser.displayName,
+                      "Name : " + widget.detailsUser.displayName,
                       textAlign: TextAlign.center,
                       overflow: TextOverflow.ellipsis,
                       textScaleFactor: 1.2,
@@ -121,7 +147,7 @@ class HomePage extends StatelessWidget {
                       padding: new EdgeInsets.all(5.0),
                     ),
                     new Text(
-                      "Email : " + detailsUser.email,
+                      "Email : " + widget.detailsUser.email,
                       textAlign: TextAlign.center,
                       overflow: TextOverflow.ellipsis,
                       textScaleFactor: 1.2,
@@ -154,6 +180,73 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+    ); */
+    return MaterialApp(
+      home: new Scaffold(
+          appBar: new AppBar(
+            title: new Text('Tabs app'),
+            backgroundColor: Colors.blue,
+            bottom: new TabBar(
+              tabs: <Tab>[
+                new Tab(text: "First"),
+                new Tab(text: "Second"),
+                new Tab(text: "Third"),
+              ],
+              controller: _tabController,
+            ),
+          ),
+          body: new TabBarView(
+            children: <Widget>[
+              new firstscreen.FirstScreen(),
+              new secondscreen.SecondScreen(),
+              new Container(
+                margin: EdgeInsets.all(8.0),
+                child: new Column(
+                  children: <Widget>[
+                    new Image.network(widget.detailsUser.photoUrl),
+                    new Text(
+                      "Name : " + widget.detailsUser.displayName,
+                      textAlign: TextAlign.center,
+                      overflow: TextOverflow.ellipsis,
+                      textScaleFactor: 1.2,
+                      style: new TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.brown),
+                    ),
+                    new Padding(
+                      padding: new EdgeInsets.all(5.0),
+                    ),
+                    new Text(
+                      "Email : " + widget.detailsUser.email,
+                      textAlign: TextAlign.center,
+                      overflow: TextOverflow.ellipsis,
+                      textScaleFactor: 1.2,
+                      style: new TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.brown),
+                    ),
+                    new Padding(
+                      padding: new EdgeInsets.all(5.0),
+                    ),
+                    new Builder(
+                      builder: (BuildContext context) {
+                        return new Material(
+                          borderRadius: new BorderRadius.circular(30.0),
+                          child: new Material(
+                            child: new MaterialButton(
+                              minWidth: 150.0,
+                              onPressed: () => _signOut(),
+                              child: new Text('Sign Out'),
+                              color: Colors.lightBlueAccent,
+                            ),
+                          ),
+                        );
+                      },
+                    )
+                  ],
+                ),
+              ),
+            ],
+            controller: _tabController,
+          )),
     );
   }
 }
